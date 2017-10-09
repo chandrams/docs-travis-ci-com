@@ -206,10 +206,11 @@ by `gimme`.
           - openjdk-6-jdk
     jdk: openjdk6
     ```
-- We install the latest Oracle JDK versions from Oracle:
+- We install the latest Oracle JDK versions from Oracle and latest IBM Java from IBM:
   - Oracle JDK 8 (`oraclejdk8`). Default.
   - Oracle JDK 9 (`oraclejdk9`)
   - Oracle JDK 7 is not provided because it reached End of Life in April 2015.
+  - IBM Java 8 (`ibmjava8`)
 
 - [jdk_switcher](https://github.com/michaelklishin/jdk_switcher#what-jdk-switcher-is)
   is installed if you need another JDK version.

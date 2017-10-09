@@ -190,6 +190,7 @@ for specific details on building JVM projects.
 - OpenJDK 7 (openjdk7)
 - OpenJDK 6 (openjdk6)
 - Oracle JDK 8 (oraclejdk8)
+- IBM Java 8 (ibmjava8)
 
 OracleJDK 7 is the default because we have a much more recent patch level
 compared to OpenJDK 7 from the Ubuntu repositories. Sun/Oracle JDK 6 is not

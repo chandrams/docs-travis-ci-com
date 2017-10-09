@@ -141,6 +141,7 @@ OpenJDK 7:
 jdk:
   - oraclejdk8
   - openjdk7
+  - ibmjava8
 ```
 {: data-file=".travis.yml"}
 

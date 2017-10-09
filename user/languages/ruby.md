@@ -265,6 +265,7 @@ jdk:
   - oraclejdk7
   - openjdk7
   - oraclejdk8
+  - ibmjava8
 ```
 {: data-file=".travis.yml"}
 
@@ -283,6 +284,7 @@ jdk:
   - openjdk6
   - openjdk7
   - oraclejdk7
+  - ibmjava8
 matrix:
   exclude:
     - rvm: 1.9.2

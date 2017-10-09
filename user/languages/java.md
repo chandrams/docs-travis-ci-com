@@ -169,13 +169,14 @@ To use a different `script` command, customize the [build step](/user/customizin
 ## Testing Against Multiple JDKs
 
 To test against multiple JDKs, use the `jdk:` key in `.travis.yml`. For example,
-to test against Oracle JDKs 8 and 9, as well as OpenJDK 7:
+to test against Oracle JDKs 8 and 9, IBM Java 8 as well as OpenJDK 7:
 
 ```yaml
 jdk:
   - oraclejdk8
   - oraclejdk9
   - openjdk7
+  - ibmjava8
 ```
 {: data-file=".travis.yml"}
 
@@ -194,6 +195,8 @@ script:
   - # do stuff with Java 8
   - jdk_switcher use openjdk7
   - # do stuff with Java 7
+  - jdk_switcher use ibmjava8
+  - # do stuff with Java 8
 ```
 {: data-file=".travis.yml"}
 
